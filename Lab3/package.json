@@ -1,0 +1,12 @@
+{
+    "name": "cs-546-lab-3",
+    "version": "1.0.0",
+    "description": " My lab 3",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "author": "Tanay Tadas 10478620",
+    "license": "ISC"
+}
