@@ -1,0 +1,15 @@
+<main>
+  <h1>Character Finder</h1>
+  <p>This website is built for Marvel API. You can search matching Character by keywords that you want to find that Character.</p>
+  <form method="POST" action="/search" class="search-form">
+
+    <label>
+      searchTerm
+      <input type="text" name="searchTerm" placeholder="search term" value="{{char.body}}"> 
+    </label>
+    <br>
+    <br>
+    <button type="submit">Submit search term</button>
+  </form>
+
+</main>

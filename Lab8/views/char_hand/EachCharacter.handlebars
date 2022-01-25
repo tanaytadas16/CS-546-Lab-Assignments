@@ -1,0 +1,13 @@
+<main>   
+ <div>
+     <h1>{{title}}</h1>
+     <img alt="{{name}}" src="{{path}}">  <!-- an img which the src is set to the value read from image.medium -->
+     <p>{{description}}</p>
+     <h2>Comics</h2>
+     <ul>
+        {{#each comics}}
+        <li>{{this.name}}</li> 
+     {{/each}}
+     </ul>
+  </div>
+</main>

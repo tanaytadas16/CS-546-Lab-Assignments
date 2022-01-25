@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+
+<h2>{{searchTerm}}</h2>
+<main>
+  <ul>
+    {{#each result}}
+    <li><a href="/characters/{{this.id}}">{{this.name}}</a></li>
+    {{/each}}
+   </ul> 
+</main>
+
+{{#if hasErrors}}
+  <p class="not-found">We're sorry, but no results were found for {{searchTerm}}</p>
+{{/if}}
+
+ <!--  links back to "/" route -->
+<a href="/">Make another search</a> 

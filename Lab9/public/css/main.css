@@ -1,0 +1,96 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+body {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: black;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    background-color: transparent;
+    font-family: sans-serif;
+}
+#searchbox {
+    width: 40%;
+    margin: auto;
+}
+#searchbox textarea,
+button {
+    width: 75%;
+    border: 3px solid black;
+    border-right: 0px;
+    font-size: 18px;
+    padding: 12px;
+    background-color: transparent;
+    color: black;
+    border-radius: 25px 0px 0px 25px;
+}
+
+#searchbox button {
+    width: 25%;
+    background: black;
+    color: white;
+    float: right;
+    border-left: 0px;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.is-palindrome {
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #0000ff;
+}
+.not-palindrome {
+    padding-top: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #ff0000;
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+    padding-bottom: 50px;
+}
+h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+.error-container {
+    font-style: italic;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+img {
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+}
+label {
+    background-color: transparent;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+}
+.about-footer {
+    text-align: center;
+    width: 50%;
+    bottom: 10px;
+}
+#attempts {
+    text-align: center;
+    list-style-position: inside;
+    margin-right: 5%;
+}
