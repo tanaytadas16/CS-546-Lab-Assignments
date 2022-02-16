@@ -1,3 +1,3 @@
-Hi this is Repository For My lab assignments for Cs-546 Web programming
+* Hi this is Repository For My lab assignments for Cs-546 Web programming for fall 2021
 
-Dont share with anyone!!!
+* It is only for reference purpose, Don't Copy !! you might regret it later.
